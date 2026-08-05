@@ -20,3 +20,9 @@ $\color{#9B0000}{\textup{I block/hide freely}}$
 <div align="center">
 <img src="https://i.ibb.co/s9qm0tQ2/banner2.jpg" alt="banner2" border="0" style="width: 35%; height: auto;">
 <div align="center">
+
+<div align="center">
+ft student + employed
+<div align="center">
+always on roblox or doing hw 
+<div align="center">
