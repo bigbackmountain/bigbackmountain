@@ -4,7 +4,7 @@
 
 <div align="center">
 <img src="https://i.ibb.co/8D2J1hVH/bootty.jpg" alt="bootty" border="0" style="width: 75%; height: auto;">
-<img src="https://i.ibb.co/Q3SW822p/divider2.png" alt="divider2" border="0">
+<img src="https://i.ibb.co/XZ9cFVcz/divider1.png" alt="divider1" border="0" style="width: 75%; height: auto;">
 <div align="center">
 
 $\color{#9B0000}{\textup{dni alien stage fans}}$
