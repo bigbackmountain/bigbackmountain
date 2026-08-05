@@ -29,8 +29,7 @@ ft student + employed
 always on roblox or doing hw 
 <div align="center">
 
-<a href="[https://www.buymeacoffee.com/tobse](https://www.youtube.com/watch?v=j1YawnQl2ow)" rel="nofollow">
-    <img src="https://i.ibb.co/274mJkgP/pic1.png" alt="pic1" border="0" style="width: 10%; height: auto;">
-</a>
+<img src="https://i.ibb.co/274mJkgP/pic1.png" alt="pic1" border="0" style="width: 10%; height: auto;">
+
 
 
