@@ -4,10 +4,7 @@
 
 <img src="https://i.ibb.co/JRrPVLqH/93680a4f4caaed5392bd29e96950c9d3.jpg" alt="93680a4f4caaed5392bd29e96950c9d3" border="0" style="width: 50%; height: auto;">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+
     <title>My First Webpage</title>
 </head>
 <body>
