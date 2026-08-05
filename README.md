@@ -17,3 +17,6 @@ DAZ + ANY PRNS
   
 $\color{#9B0000}{\textup{I block/hide freely}}$
 
+<div align="center">
+<img src="https://i.ibb.co/s9qm0tQ2/banner2.jpg" alt="banner2" border="0" style="width: 75%; height: auto;">
+<div align="center">
