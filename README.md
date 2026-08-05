@@ -29,6 +29,8 @@ ft student + employed
 always on roblox or doing hw 
 <div align="center">
 
+
+
 <div align="center">
 <img src="https://i.ibb.co/274mJkgP/pic1.png" alt="pic1" border="0" style="width: 10%; height: auto;">
 <div align="center">
