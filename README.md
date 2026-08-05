@@ -4,4 +4,16 @@
 
 <img src="https://i.ibb.co/JRrPVLqH/93680a4f4caaed5392bd29e96950c9d3.jpg" alt="93680a4f4caaed5392bd29e96950c9d3" border="0" style="width: 50%; height: auto;">
 
-$\color{#9B0000}{\textup{dni alien stage fans}}$
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+</head>
+<body>
+
+    <h1>Welcome to My Website</h1>
+    <p>This is a standard paragraph of text implementing HTML tags.</p>
+
+</body>
+</html>
