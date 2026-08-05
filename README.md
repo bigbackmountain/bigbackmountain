@@ -31,9 +31,6 @@ always on roblox or doing hw
 
 
 <a href="[https://example.com/source](https://www.youtube.com/watch?v=j1YawnQl2ow">
-    <img src="https://i.ibb.co/274mJkgP/pic1.png" alt="pic1" border="0">
+    <img src="https://i.ibb.co/274mJkgP/pic1.png" alt="pic1" border="0" style="width: 10%; height: auto;">
 </a>
 
-<div align="center">
-<img src="https://i.ibb.co/274mJkgP/pic1.png" alt="pic1" border="0" style="width: 10%; height: auto;">
-<div align="center">
