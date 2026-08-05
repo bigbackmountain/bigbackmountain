@@ -15,4 +15,4 @@ DAZ + ANY PRNS
   veinfei geek
 <div align="center">
   
-$\color{#9B0000}{\textup{dni alien stage fans}}$
+$\color{#9B0000}{\textup{I block/hide freely}}$
