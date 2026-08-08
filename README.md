@@ -32,73 +32,31 @@ always on roblox or doing hw
 <img src="https://i.ibb.co/274mJkgP/pic1.png" alt="pic1" border="0" style="width: 10%; height: auto;">
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Countdown Timer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #0d1117; /* GitHub dark theme background */
-            color: #c9d1d9;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
+// Source - https://stackoverflow.com/q/49670619
+// Posted by antzshrek, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-08-08, License - CC BY-SA 3.0
+
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
         }
-        h1 {
-            color: #58a6ff;
-            margin-bottom: 20px;
-        }
-        #countdown {
-            font-size: 3rem;
-            font-weight: bold;
-            letter-spacing: 2px;
-            background: #161b22;
-            padding: 20px 40px;
-            border-radius: 10px;
-            border: 1px solid #30363d;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-        }
-    </style>
-</head>
-<body>
+    }, 1000);
+}
 
-    <h1>Project Launch Countdown</h1>
-    <!-- The countdown text will inject here -->
-    <div id="countdown">Loading...</div>
-
-    <script>
-        // SET YOUR TARGET DATE HERE (YYYY-MM-DDTHH:MM:SS)
-        const targetDate = new Date("2027-01-01T00:00:00").getTime();
-
-        const timerInterval = setInterval(function() {
-            const now = new Date().getTime();
-            const timeLeft = targetDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-            // Output the result in the element with id="countdown"
-            document.getElementById("countdown").innerHTML = 
-                days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-            // If the countdown is finished, write some text
-            if (timeLeft < 0) {
-                clearInterval(timerInterval);
-                document.getElementById("countdown").innerHTML = "LAUNCHED!";
-            }
-        }, 1000);
-    </script>
-
-</body>
-</html>
+window.onload = function () {
+    var fiveMinutes = 60 * 5,
+        display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+};
 
 
